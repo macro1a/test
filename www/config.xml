@@ -15,7 +15,10 @@
 	<preference name="DisallowOverscroll" value="true"/>
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-splashscreen" />
 	<plugin name="cordova-plugin-device" />
+	<preference name="ShowSplashScreenSpinner"    value="true" />
+
 	<platform name="android">
     <icon src="Icon.png" />
 		</platform>
