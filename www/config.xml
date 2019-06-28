@@ -15,18 +15,10 @@
 	<preference name="DisallowOverscroll" value="true"/>
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-whitelist" />
-	<plugin name="cordova-plugin-splashscreen" />
 	<plugin name="cordova-plugin-device" />
-	<preference name="Splash.png"               value="splash" />
-	<preference name="AutoHideSplashScreen"       value="false" />
-	<preference name="SplashScreenDelay"          value="10000" />
-	<preference name="SplashMaintainAspectRatio"  value="true" />
-	<preference name="FadeSplashScreen"           value="false"/>
-	<preference name="ShowSplashScreenSpinner"    value="true" />
 	<platform name="android">
     <icon src="Icon.png" />
-    <splash src="Splash.png" />
-	</platform>
+		</platform>
 	
 	<allow-navigation href="https://app.macronetwork.ch/*" />
 	
